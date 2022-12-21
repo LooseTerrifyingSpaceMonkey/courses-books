@@ -1,0 +1,19 @@
+name: bmrl
+channels:
+  - defaults
+dependencies:
+  - python==3.8
+  - pyopengl
+  - pytorch==1.6
+  - matplotlib
+  - pandas
+  - numpy
+  - tqdm
+  - jupyter
+  - seaborn
+  - scikit-learn
+  - pip
+  - pip:
+    - gym==0.21.0
+    - pygame==2.1.2
+    - pyglet==1.5.27
